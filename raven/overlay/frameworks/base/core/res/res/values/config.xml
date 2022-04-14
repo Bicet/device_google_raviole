@@ -273,4 +273,5 @@
         <item>200</item>
     </integer-array>
 
+    <integer name="config_screenBrightnessDoze">130</integer>
 </resources>
