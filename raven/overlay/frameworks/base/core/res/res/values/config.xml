@@ -204,4 +204,16 @@
     <integer name="config_customizedMaxCachedProcesses">64</integer>
 
     <integer name="config_screenBrightnessDoze">130</integer>
+    
+<!-- The properties of a UDFPS sensor in pixels -->
+    <integer-array name="config_udfps_sensor_props">
+      <item>720</item>  <!-- sensorLocationX -->
+      <item>2364</item> <!-- sensorLocationY -->
+      <item>142</item>  <!-- sensorRadius -->
+    </integer-array>    
+    
+  <!-- List of comma separated package names for which we the system will not show crash, ANR,
+         etc. dialogs. -->
+    <string translatable="false" name="config_appsNotReportingCrashes">com.google.android.euicc</string>
+    
 </resources>
