@@ -85,3 +85,8 @@ TARGET_SYSTEM_PROP := device/google/raviole/system.prop
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Camera
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
+    ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
