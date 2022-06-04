@@ -8,6 +8,10 @@ ro.opa.eligible_device=true
 drm.service.enabled=true
 media.mediadrmservice.enable=true
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Multi-gen LRU
 persist.device_config.mglru_native.lru_gen_config=all
 
